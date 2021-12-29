@@ -13,6 +13,9 @@
 		A667E0F1277C5716005D546D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A667E0EF277C5716005D546D /* Main.storyboard */; };
 		A667E0F3277C5718005D546D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A667E0F2277C5718005D546D /* Assets.xcassets */; };
 		A667E0F6277C5718005D546D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A667E0F4277C5718005D546D /* LaunchScreen.storyboard */; };
+		A667E0FF277C5887005D546D /* GoogleBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A667E0FD277C5887005D546D /* GoogleBookTableViewCell.swift */; };
+		A667E100277C5887005D546D /* GoogleBookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A667E0FE277C5887005D546D /* GoogleBookTableViewCell.xib */; };
+		A667E102277C5EB1005D546D /* GoogleApiBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = A667E101277C5EB1005D546D /* GoogleApiBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A667E0F2277C5718005D546D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A667E0F5277C5718005D546D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A667E0F7277C5718005D546D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A667E0FD277C5887005D546D /* GoogleBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBookTableViewCell.swift; sourceTree = "<group>"; };
+		A667E0FE277C5887005D546D /* GoogleBookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoogleBookTableViewCell.xib; sourceTree = "<group>"; };
+		A667E101277C5EB1005D546D /* GoogleApiBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleApiBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				A667E0F2277C5718005D546D /* Assets.xcassets */,
 				A667E0F4277C5718005D546D /* LaunchScreen.storyboard */,
 				A667E0F7277C5718005D546D /* Info.plist */,
+				A667E0FD277C5887005D546D /* GoogleBookTableViewCell.swift */,
+				A667E0FE277C5887005D546D /* GoogleBookTableViewCell.xib */,
+				A667E101277C5EB1005D546D /* GoogleApiBook.swift */,
 			);
 			path = googleBookApi;
 			sourceTree = "<group>";
@@ -128,6 +137,7 @@
 				A667E0F6277C5718005D546D /* LaunchScreen.storyboard in Resources */,
 				A667E0F3277C5718005D546D /* Assets.xcassets in Resources */,
 				A667E0F1277C5716005D546D /* Main.storyboard in Resources */,
+				A667E100277C5887005D546D /* GoogleBookTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +151,8 @@
 				A667E0EE277C5716005D546D /* ViewController.swift in Sources */,
 				A667E0EA277C5716005D546D /* AppDelegate.swift in Sources */,
 				A667E0EC277C5716005D546D /* SceneDelegate.swift in Sources */,
+				A667E102277C5EB1005D546D /* GoogleApiBook.swift in Sources */,
+				A667E0FF277C5887005D546D /* GoogleBookTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
